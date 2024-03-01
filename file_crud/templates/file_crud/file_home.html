@@ -1,0 +1,60 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="flex justify-center mt-32">
+    <h1 class="text-3xl font-bold dark:text-white text-black">
+        Files
+    </h1>
+</div>
+
+<div class="flex justify-center mt-8 ">
+    <form class="w-[300px] mx-auto">
+  <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select file type</label>
+  <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+
+    <option>All</option>
+    <option>pdf</option>
+    <option>images</option>
+    <option>other</option>
+  </select>
+</form>
+</div>
+
+
+
+<div class="flex mt-8 justify-center space-x-4">
+
+
+<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4">
+    <div class="flex flex-col items-center pb-10">
+        <svg width="70px" height="100px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path fill="#F1C40F" d="M0 100V0h72l28 28v72H0z"/><path fill="#F39C12" d="M0 100V72L72 0l28 28-72 72H0z"/><path fill="#FFF55B" d="M72 0h1l27 27v1H72V0z"/><path d="M34.828 55.721v3.853H23.29v7.704h9.738v3.87H23.29V81.75h-4.878V55.721h16.416zm9.252 26.028h-4.86V55.721h4.86v26.028zm10.691-3.996h10.422v3.996H49.93V55.721h4.842v22.032zm30.187-22.032v3.853H73.42v7.218h9.09v3.726h-9.09v7.362h11.538v3.87H68.542V55.721h16.416z" fill="#ffffff"/></svg>
+        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">File name</h5>
+        <span class="text-sm text-gray-500 dark:text-gray-400"></span>
+        <div class="flex mt-4 md:mt-6">
+            <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Download</a>
+            <a href="#" class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Update</a>
+        </div>
+    </div>
+</div>
+
+    <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4">
+    <div class="flex flex-col items-center pb-10">
+        <svg width="70px" height="100px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path fill="#F1C40F" d="M0 100V0h72l28 28v72H0z"/><path fill="#F39C12" d="M0 100V72L72 0l28 28-72 72H0z"/><path fill="#FFF55B" d="M72 0h1l27 27v1H72V0z"/><path d="M34.828 55.721v3.853H23.29v7.704h9.738v3.87H23.29V81.75h-4.878V55.721h16.416zm9.252 26.028h-4.86V55.721h4.86v26.028zm10.691-3.996h10.422v3.996H49.93V55.721h4.842v22.032zm30.187-22.032v3.853H73.42v7.218h9.09v3.726h-9.09v7.362h11.538v3.87H68.542V55.721h16.416z" fill="#ffffff"/></svg>
+        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">File name</h5>
+        <span class="text-sm text-gray-500 dark:text-gray-400"></span>
+        <div class="flex mt-4 md:mt-6">
+            <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Download</a>
+            <a href="#" class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Update</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</div>
+
+</div>
+
+{% endblock %}
